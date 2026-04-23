@@ -735,7 +735,7 @@ function Ap({ currentDay: n, onSelectDay: e, onSignOut: t }) {
 		r.root
 	);
 }
-const _o = '/DevQuest/assets/avatar-boss.png',
+const _o = '/rs-tandem-devquest/assets/avatar-boss-8ibVKKl6.png',
 	pl = [
 		{
 			id: 'bugfix',
@@ -56599,10 +56599,9 @@ function Zb({ day: n, gameId: e, skill: t, onBack: r, onSignOut: a }) {
 		(s.className = 'game-widget-container'),
 		e === 'quiz'
 			? new EE(s, e, r).start(t, n)
-			: e === 'bugfix' ||
-				(e === 'bugfix'
-					? new Kb(s, { day: n, gameId: e }).start()
-					: e === 'debug' && new Xb(s, e, n).start()),
+			: e === 'bugfix'
+				? new Kb(s, { day: n, gameId: e }).start()
+				: e === 'debug' && new Xb(s, e, n).start(),
 		i.main.replaceChildren(s),
 		i.root
 	);
