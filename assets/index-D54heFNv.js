@@ -735,7 +735,7 @@ function Ap({ currentDay: n, onSelectDay: e, onSignOut: t }) {
 		r.root
 	);
 }
-const _o = '/rs-tandem-devquest/assets/avatar-boss-8ibVKKl6.png',
+const _o = '/DevQuest/assets/avatar-boss.png',
 	pl = [
 		{
 			id: 'bugfix',
